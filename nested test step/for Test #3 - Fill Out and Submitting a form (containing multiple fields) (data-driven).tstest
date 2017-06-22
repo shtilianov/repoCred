@@ -26,48 +26,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "779f093c-7cc6-4ae0-bfcd-d7afa6a12fb7",
-            "Description": "Execute test 'Login with correct credentials.tstest'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
-              "__value": {
-                "WaitOnElementsTimeout": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": false,
-                "TestName": "Login with correct credentials.tstest",
-                "TestPath": "nested test step\\Login with correct credentials.tstest",
-                "TestUniqueId": "e7445f6a-2a31-4490-8a01-e3ad8c6b9a61",
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 1,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "Test #2 - Filling Out and Submitting a form (containing multiple fields) titey2n3.yse",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "9051ca22-38c6-4331-9729-4affdbe632d3",
+            "Runtime ID": "ff26d88e-442c-4083-aeaf-baf6289e530f",
             "Description": "Click 'ComposeButtonDiv'",
             "CustomDescription": null,
             "Step": {
@@ -165,11 +124,11 @@
               }
             },
             "Enabled": true,
-            "Order": 2,
+            "Order": 1,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Test #2 - Fill Out and Submitting a form (containing multiple fields)ezoiyz1t.tsl",
+            "StepImageKey": "for Test #3 - Fill Out and Submitting a form (containing multiple fields) (data-driven)maq3x3cc.hku",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -179,8 +138,8 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "af058239-851c-49e7-bb07-ea9f0dbd9180",
-            "Description": "Enter text 'NewUser@TelerikTestStudio.com' in 'Text'",
-            "CustomDescription": null,
+            "Description": "Enter text 'NewUser@TelerikTestStudio.com' in 'Text' - DataDriven: [$(to)]",
+            "CustomDescription": "Enter text 'NewUser@TelerikTestStudio.com' in 'Text' - DataDriven: [$(to)]",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
@@ -287,13 +246,15 @@
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {},
+                "DataBindingExpressions": {
+                  "Text": "$(to)"
+                },
                 "_canEncrypt": false,
                 "_cipher": null
               }
             },
             "Enabled": true,
-            "Order": 3,
+            "Order": 2,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -307,8 +268,8 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "dedce49f-9c7f-4f0e-a35a-d1c5b9ca6268",
-            "Description": "Enter text 'Welcome' in 'Text'",
-            "CustomDescription": null,
+            "Description": "Enter text 'Welcome' in 'Text0' - DataDriven: [$(subject)]",
+            "CustomDescription": "Enter text 'Welcome' in 'Text0' - DataDriven: [$(subject)]",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
@@ -415,13 +376,15 @@
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {},
+                "DataBindingExpressions": {
+                  "Text": "$(subject)"
+                },
                 "_canEncrypt": false,
                 "_cipher": null
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 3,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -534,7 +497,7 @@
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 4,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -548,8 +511,8 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "4cb5d44d-ffac-4de7-a08b-b524b9549fa4",
-            "Description": "Enter text 'test string' in 'BodyTag'",
-            "CustomDescription": null,
+            "Description": "Enter text 'test string' in 'BodyTag' - DataDriven: [$(text)]",
+            "CustomDescription": "Enter text 'test string' in 'BodyTag' - DataDriven: [$(text)]",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
@@ -658,13 +621,15 @@
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {},
+                "DataBindingExpressions": {
+                  "Text": "$(text)"
+                },
                 "_canEncrypt": false,
                 "_cipher": null
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -775,7 +740,7 @@
               }
             },
             "Enabled": true,
-            "Order": 7,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -788,7 +753,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "44706912-f42c-48ae-b3e4-9918ceecf8d3",
+            "Runtime ID": "62da8047-a92d-4698-9f5d-06ede967c5a6",
             "Description": "Click 'SentButtonDiv'",
             "CustomDescription": null,
             "Step": {
@@ -886,11 +851,11 @@
               }
             },
             "Enabled": true,
-            "Order": 8,
+            "Order": 7,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Test #2 - Fill Out and Submitting a form (containing multiple fields)i42quhlr.sv1",
+            "StepImageKey": "for Test #3 - Fill Out and Submitting a form (containing multiple fields) (data-driven)uvsheapk.ate",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -899,7 +864,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "3f524508-9238-48b7-9b81-fc9efe3612cc",
+            "Runtime ID": "c41ed95a-5a20-48f0-9a5e-8ea40760eff6",
             "Description": "Wait for 'TextContent' 'Contains' 'Sent folder' on 'StatusPTag'",
             "CustomDescription": null,
             "Step": {
@@ -1000,11 +965,11 @@
               }
             },
             "Enabled": true,
-            "Order": 9,
+            "Order": 8,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Test #2 - Fill Out and Submitting a form (containing multiple fields)hu3uqyhw.nsi",
+            "StepImageKey": "for Test #3 - Fill Out and Submitting a form (containing multiple fields) (data-driven)0xfneezq.hea",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1013,9 +978,9 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "dc9936df-ffae-402b-b3c2-d6e6a0719a18",
-            "Description": "Verify 'InnerText' 'Contains' 'NewUser@TelerikTestStudio.com' on 'SentTableTable'",
-            "CustomDescription": null,
+            "Runtime ID": "31010952-3878-485a-825c-a8bd8eeee56a",
+            "Description": "Verify 'InnerText' 'Contains' 'NewUser@TelerikTestStudio.com' on 'SentTableTable' - DataDriven: [$(to)]",
+            "CustomDescription": "Verify 'InnerText' 'Contains' 'NewUser@TelerikTestStudio.com' on 'SentTableTable' - DataDriven: [$(to)]",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
               "__value": {
@@ -1110,6 +1075,119 @@
                 "StepType": 2,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
+                "DataBindingExpressions": {
+                  "ExpectedString": "$(to)"
+                }
+              }
+            },
+            "Enabled": true,
+            "Order": 9,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "for Test #3 - Fill Out and Submitting a form (containing multiple fields) (data-driven)d1ixso1v.3gg",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "5edd59db-e916-4afc-8f89-f89846559894",
+            "Description": "Click 'InboxButtonDiv'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": true,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "inbox/",
+                          "Query": "",
+                          "BaseUrl": "http://localhost:8080/",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Telerik Sample",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "TelerikSample1"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "ckuIT5NQKKM9MLGFKjxIYhTAMy8=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "InboxButtonDiv",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=inbox_button"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=div"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
                 "DataBindingExpressions": {}
               }
             },
@@ -1118,7 +1196,121 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Test #2 - Fill Out and Submitting a form (containing multiple fields)ay3evt1t.5vv",
+            "StepImageKey": "for Test #3 - Fill Out and Submitting a form (containing multiple fields) (data-driven)ux44zcii.f1h",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "23882c60-933b-4e2f-a234-754472455d72",
+            "Description": "Wait for 'TextContent' 'Contains' 'Inbox' on 'StatusPTag'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+              "__value": {
+                "CompareType": 2,
+                "SegmentType": 3,
+                "ExpectedString": "Inbox",
+                "UseBackupSearch": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://localhost:8080/Inbox.html",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Telerik Sample",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "TelerikSample"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "nbRLQkyaL2A4vD2ibVB3QWEg6Ug=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "StatusPTag",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=status"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=p"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/p[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 11,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "for Test #3 - Fill Out and Submitting a form (containing multiple fields) (data-driven)qptu01ob.0pt",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1283,20 +1475,20 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Test #2 - Fill Out and Submitting a form (containing multiple fields).resx",
+    "ResourceFilePath": "nested test step\\for Test #3 - Fill Out and Submitting a form (containing multiple fields) (data-driven).resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
         "ConnectionString": "",
-        "DefaultToGrid": true,
+        "DefaultToGrid": false,
         "DataRange": "",
         "LoadRecordsCount": null,
-        "DataTableName": "",
-        "DataProvider": "",
+        "DataTableName": "DataTable",
+        "DataProvider": "DataForTest3.xls",
         "DataEnabled": true,
         "HasBuiltinGrid": false,
-        "DataType": 4,
+        "DataType": 5,
         "BuiltInData": null,
         "BuiltInDocumentKey": null,
         "TSQL": ""
@@ -1312,14 +1504,14 @@
     "QcFilePath": null,
     "QcTestVersionStamp": 0,
     "TestLinks": [],
-    "Description": "",
-    "Name": "Test #2 - Fill Out and Submitting a form (containing multiple fields)",
+    "Description": "uses data from Excel spreadsheet. Called as a step so login is not repeated for every iteration.",
+    "Name": "for Test #3 - Fill Out and Submitting a form (containing multiple fields) (data-driven)",
     "Owner": "",
-    "Path": "Test #2 - Fill Out and Submitting a form (containing multiple fields).tstest",
+    "Path": "nested test step\\for Test #3 - Fill Out and Submitting a form (containing multiple fields) (data-driven).tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "fb37048c-32cb-4512-a569-02aa7af71c59",
-    "Id": "fb37048c-32cb-4512-a569-02aa7af71c59",
+    "UniqueId": "03a54d75-2ce9-4373-9004-a1847e96a85f",
+    "Id": "03a54d75-2ce9-4373-9004-a1847e96a85f",
     "ProjectId": "d0958ad3-8052-4115-b2cd-30435e861002",
     "Version": 200
   }
