@@ -5,7 +5,7 @@
     "RecordjQueryInDescriptorsIfPossible": true,
     "ShouldDeleteElement": false,
     "SkipDeleteElementPrompt": false,
-    "HideFindExpressionWelcome": false,
+    "HideFindExpressionWelcome": true,
     "MenuHoldTime": 1.0,
     "SilverlightConnectTimeout": 60000,
     "BaseClassName": "BaseWebAiiTest",
@@ -154,15 +154,14 @@
     "IsStoryBoardCapturingEnabled": true,
     "SimulateRealClickByDefault": false,
     "SimulateRealTypingByDefault": false,
-    "DisableUIAUsage": false,
     "SimulateRealSilverlightUserByDefault": true,
     "DefaultDropDownSelection": 1,
     "QuickExecutionElementWaitTimeout": 30000,
     "QuickExecutionClientReadyTimeout": 60000,
     "QcServerUrl": null,
-    "QcUserName": "webui",
-    "QcPassword": "Bt6/TQp8sw8=",
-    "QcSkipAuthDialog": true,
+    "QcUserName": "",
+    "QcPassword": "",
+    "QcSkipAuthDialog": false,
     "QcDomain": null,
     "QcProject": null,
     "TfsUserName": "",
@@ -172,7 +171,7 @@
     "TeamPulseServerUrl": "",
     "TpUserName": "",
     "TpPassword": "",
-    "TpUseWindowsAuth": true,
+    "TpUseWindowsAuth": false,
     "TpSkipAuthDialog": false,
     "TpDefaultProjectId": -1,
     "RecordWpfWindowStateChanged": false,
@@ -180,8 +179,20 @@
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "d0958ad3-8052-4115-b2cd-30435e861002",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/atuser2/testRepo.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/atuser2/testRepo.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 1,
     "ProjectReferences": [
       "System",
@@ -209,6 +220,6 @@
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{Description}",
-    "SelectedBrowserOption": 2
+    "SelectedBrowserOption": 4
   }
 }
