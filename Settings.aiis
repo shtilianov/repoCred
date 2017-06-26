@@ -5,11 +5,7 @@
     "RecordjQueryInDescriptorsIfPossible": true,
     "ShouldDeleteElement": false,
     "SkipDeleteElementPrompt": false,
-<<<<<<< HEAD
     "HideFindExpressionWelcome": true,
-=======
-    "HideFindExpressionWelcome": false,
->>>>>>> master
     "MenuHoldTime": 1.0,
     "SilverlightConnectTimeout": 60000,
     "BaseClassName": "BaseWebAiiTest",
@@ -158,24 +154,14 @@
     "IsStoryBoardCapturingEnabled": true,
     "SimulateRealClickByDefault": false,
     "SimulateRealTypingByDefault": false,
-<<<<<<< HEAD
-=======
-    "DisableUIAUsage": false,
->>>>>>> master
     "SimulateRealSilverlightUserByDefault": true,
     "DefaultDropDownSelection": 1,
     "QuickExecutionElementWaitTimeout": 30000,
     "QuickExecutionClientReadyTimeout": 60000,
     "QcServerUrl": null,
-<<<<<<< HEAD
     "QcUserName": "",
     "QcPassword": "",
     "QcSkipAuthDialog": false,
-=======
-    "QcUserName": "webui",
-    "QcPassword": "Bt6/TQp8sw8=",
-    "QcSkipAuthDialog": true,
->>>>>>> master
     "QcDomain": null,
     "QcProject": null,
     "TfsUserName": "",
@@ -185,11 +171,7 @@
     "TeamPulseServerUrl": "",
     "TpUserName": "",
     "TpPassword": "",
-<<<<<<< HEAD
     "TpUseWindowsAuth": false,
-=======
-    "TpUseWindowsAuth": true,
->>>>>>> master
     "TpSkipAuthDialog": false,
     "TpDefaultProjectId": -1,
     "RecordWpfWindowStateChanged": false,
@@ -226,10 +208,6 @@
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{Description}",
-<<<<<<< HEAD
     "SelectedBrowserOption": 4
-=======
-    "SelectedBrowserOption": 2
->>>>>>> master
   }
 }
